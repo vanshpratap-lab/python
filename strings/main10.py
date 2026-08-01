@@ -1,0 +1,21 @@
+a = "VaNsH !!!!"
+print(len(a))
+print(a.upper())
+print(a.lower())
+print(a.rstrip("!"))
+print(a.replace("VaNsH", "anvi"))
+print(a.split(" "))
+presentation = "hello and welcome everyone~~"
+print(presentation.capitalize())
+print(len(presentation))
+print(len(presentation.center(40)))
+print(presentation.count("e"))
+print(presentation.endswith("~~"))
+print(presentation.endswith("w" , 0 , 11))
+print(presentation.find("n"))
+print(presentation.isalnum())
+print(presentation.isalpha())
+print(presentation.isspace())
+print(presentation.istitle())
+print(presentation.title())
+
