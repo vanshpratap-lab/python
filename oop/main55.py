@@ -15,5 +15,6 @@ print(v1)
 v2 = operator(4,5,6)
 print(v2)
 print(v1 + v2)
+print(type(v1+v2))
         
 
